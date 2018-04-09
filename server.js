@@ -58,6 +58,6 @@ function upload_random_image(images){
   
       setInterval(function(){
         upload_random_image(images);
-      }, 100000);
+      }, 10000);
     }
   });
