@@ -56,8 +56,6 @@ function upload_random_image(images){
         images.push(f);
       });
   
-      setInterval(function(){
-        upload_random_image(images);
-      }, 100000);
+      upload_random_image(images);
     }
   });
